@@ -1,8 +1,7 @@
-var num;
+let num = prompt("Introduce un número entero:");
 
 function esEntero() {
     let resultado = false;
-    var num = prompt("Introduce un número entero:");
 
     if (parseInt(num) == num) resultado = true;
     else console.error("El número introducido no es entero.");
@@ -19,8 +18,8 @@ function esPositivo() {
     return resultado;
 }
 
-function sumatorio(num){
-    var resultado = 0;
+function sumatorio(){
+    let resultado = 0;
     for(let i = 0; i < num; i ++){
         resultado += i;
     }
@@ -28,7 +27,5 @@ function sumatorio(num){
 }
 
 esEntero();
-
 esPositivo();
-
-sumatorio();
+console.log(sumatorio());
