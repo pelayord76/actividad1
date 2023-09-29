@@ -1,7 +1,7 @@
-let operandoA = parseInt(prompt("Introduce un operando:"));
-let operandoB = parseInt(prompt("Introduce el segundo operando:"));
-let operador = prompt("Introduce el signo del operador ('+', '-', '*', '/', 'FIN'):");
-let resultado = 0;
+var operandoA = parseInt(prompt("Introduce un operando:"));
+var operandoB = parseInt(prompt("Introduce el segundo operando:"));
+var operador = prompt("Introduce el signo del operador ('+', '-', '*', '/', 'FIN'):");
+var resuvardo = 0;
 
 while (operador != "FIN") {
     validaOperador();

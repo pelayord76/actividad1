@@ -1,4 +1,4 @@
-let numeros = [];
+var numeros = [];
 
 for (let i = 0; i < 4; i++) {
     let numero = prompt("Introduce un número entero positivo:");

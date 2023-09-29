@@ -1,4 +1,8 @@
-let num = prompt("Introduce un número entero:");
+var num = prompt("Introduce un número entero:");
+
+esEntero();
+esPositivo();
+alert(sumatorio());
 
 function esEntero() {
     let resultado = false;
@@ -25,7 +29,3 @@ function sumatorio(){
     }
     return resultado;
 }
-
-esEntero();
-esPositivo();
-console.log(sumatorio());
